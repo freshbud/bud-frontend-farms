@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'http://localhost:3000/',
+    href: 'https://buddefi.com/',
   },
   {
     label: 'Trade',
@@ -12,29 +12,24 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.cubdefi.com/',
+        href: 'https://exchange.buddefi.com/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.cubdefi.com/#/pool',
+        href: 'https://exchange.buddefi.com/#/pool',
       },
     ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'http://localhost:3000/farms',
+    href: 'https://buddefi.com/farms',
   },
   {
     label: 'Treats',
     icon: 'PoolIcon',
-    href: 'http://localhost:3000/treats',
+    href: 'https://buddefi.com/treats',
   },
-  // {
-  //   label: 'LeoBridge',
-  //   icon: 'NftIcon',
-  //   href: "https://bridge.cubdefi.com",
-  // },
   {
     label: 'Info',
     icon: 'InfoIcon',
@@ -43,10 +38,10 @@ const config: MenuEntry[] = [
         label: 'PancakeSwap',
         href: 'https://pancakeswap.info/token/0x50d809c74e0b8e49e7b4c65bb3109abe3ff4c1c1',
       },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/cub-finance/',
-      },
+      // {
+      //   label: 'CoinMarketCap',
+      //   href: 'https://coinmarketcap.com/currencies/cub-finance/',
+      // },
     ],
   },
   // {
