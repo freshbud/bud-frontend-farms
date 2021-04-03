@@ -1828,9 +1828,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@CubFinance/cub-uikit":
+"@pancakeswap-libs/uikit@BudDefi/bud-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/CubFinance/cub-uikit/tar.gz/2e01181b9a5eece4570cef73061d971d539a7671"
+  resolved "https://codeload.github.com/BudDefi/bud-uikit/tar.gz/4561e2adf94b9e21f81a8339785b391cad506540"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
@@ -16295,6 +16295,11 @@ yargs@^16.1.1:
     string-width "^4.2.0"
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
+
+yarn@^1.22.10:
+  version "1.22.10"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.10.tgz#c99daa06257c80f8fa2c3f1490724e394c26b18c"
+  integrity sha512-IanQGI9RRPAN87VGTF7zs2uxkSyQSrSPsju0COgbsKQOOXr5LtcVPeyXWgwVa0ywG3d8dg6kSYKGBuYK021qeA==
 
 yocto-queue@^0.1.0:
   version "0.1.0"
