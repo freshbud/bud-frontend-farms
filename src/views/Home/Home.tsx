@@ -23,7 +23,7 @@ const Hero = styled.div`
   align-items: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/bud/logo.png') ,url('/images/bud/dog-house.png');
+    background-image: url('/images/bud/bessie.png') ,url('/images/bud/dog-house.png');
     background-position: left center, right center;
     height: 165px;
     padding-top: 0;
