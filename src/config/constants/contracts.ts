@@ -2,7 +2,7 @@
 export default {
   cake: {
     56: '0x16133DD9f6DD37AD95F2E833fBB2c408C7F523a1',
-    666: 'This is CUB token',
+    666: 'This is BUD token',
     97: '',
   },
   masterChef: {
