@@ -44,31 +44,28 @@ const config: MenuEntry[] = [
       // },
     ],
   },
-  // {
-  //   label: 'Docs',
-  //   icon: 'TicketIcon',
-  //   href: 'https://docs.cubdefi.com/',
-  // },
-  // {
-  //   label: 'Roadmap',
-  //   icon: 'MoreIcon',
-  //   href: 'https://docs.cubdefi.com/roadmap',
-  // },
-  // {
-  //   label: "Tokenized Blogging",
-  //   icon: "PawIcon",
-  //   href: "https://leofinance.io/",
-  // },
-  // {
-  //   label: "Blog",
-  //   icon: "BlogIcon",
-  //   href: "https://leofinance.io/@leofinance",
-  // },
-  // {
-  //   label: 'CertiK Audit (Coming Soon)',
-  //   icon: 'AuditIcon',
-  //   href: '#',
-  // },
+  {
+    label: 'Info',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'Github',
+        href: 'https://github.com/BudDefi',
+      },
+      {
+        label: 'Docs',
+        href: 'https://buddefi.gitbook.io/bud-defi/',
+      },
+      {
+        label: 'Roadmap',
+        href: 'https://buddefi.gitbook.io/bud-defi/roadmap',
+      },
+      {
+        label: "Blog",
+        href: "https://medium.com/@BudFinance",
+      },
+    ],
+  },
 ]
 
 export default config
