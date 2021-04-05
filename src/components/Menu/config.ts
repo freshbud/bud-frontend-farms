@@ -45,8 +45,8 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Info',
-    icon: 'InfoIcon',
+    label: 'More',
+    icon: 'MoreIcon',
     items: [
       {
         label: 'Github',
