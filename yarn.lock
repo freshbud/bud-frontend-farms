@@ -1830,7 +1830,7 @@
 
 "@pancakeswap-libs/uikit@BudDefi/bud-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/BudDefi/bud-uikit/tar.gz/4561e2adf94b9e21f81a8339785b391cad506540"
+  resolved "https://codeload.github.com/BudDefi/bud-uikit/tar.gz/3b036643c1575da3141ef756108376951373cf68"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

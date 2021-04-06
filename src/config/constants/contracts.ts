@@ -1,12 +1,12 @@
   
 export default {
   cake: {
-    56: '0x16133DD9f6DD37AD95F2E833fBB2c408C7F523a1',
+    56: '0x6B4DA04f7662DB8abf772d973D93aF573e8aFaD5',
     666: 'This is BUD token',
     97: '',
   },
   masterChef: {
-    56: '0x94E57A40fcf20bC75799579589e78DD6d024422e',
+    56: '0x333643dcB46a35a564E63a377F0f65A2108A2A41',
     97: '',
   },
   wbnb: {
