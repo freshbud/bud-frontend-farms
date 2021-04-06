@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUD-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x90f0b7a7266a64062e56a4c6f19097cfd4b37805',
+      56: '0x38535b547620D2C1d61894Ca68f243F98c722A02',
     },
     tokenSymbol: 'BUD',
     tokenAddresses: {
       97: '',
-      56: '0x16133DD9f6DD37AD95F2E833fBB2c408C7F523a1',
+      56: '0x6B4DA04f7662DB8abf772d973D93aF573e8aFaD5',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUD-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xc79173e5f6501d7c1ab2f4e7544b13fc6562ce6a',
+      56: '0x7a1aF2675513A19116ed5b523B533fBC0Ff7DCd6',
     },
     tokenSymbol: 'BUD',
     tokenAddresses: {
       97: '',
-      56: '0x16133DD9f6DD37AD95F2E833fBB2c408C7F523a1',
+      56: '0x6B4DA04f7662DB8abf772d973D93aF573e8aFaD5',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -57,12 +57,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUD',
     lpAddresses: {
       97: '',
-      56: '0x90f0b7a7266a64062e56a4c6f19097cfd4b37805', // VIKING-BUSD LP
+      56: '0x38535b547620D2C1d61894Ca68f243F98c722A02', // VIKING-BUSD LP
     },
     tokenSymbol: 'BUD',
     tokenAddresses: {
       97: '',
-      56: '0x16133DD9f6DD37AD95F2E833fBB2c408C7F523a1',
+      56: '0x6B4DA04f7662DB8abf772d973D93aF573e8aFaD5',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
