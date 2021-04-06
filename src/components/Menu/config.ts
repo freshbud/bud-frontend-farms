@@ -62,7 +62,7 @@ const config: MenuEntry[] = [
       },
       {
         label: "Blog",
-        href: "https://medium.com/@BudDefi",
+        href: "https://buddefi.medium.com/",
       },
     ],
   },
