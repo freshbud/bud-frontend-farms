@@ -73,6 +73,12 @@ const config: MenuEntry[] = [
         href: "https://buddefi.medium.com/",
       },
     ],
+
+  },
+  {
+    label: 'Audits (In Progress)',
+    icon: 'AuditIcon',
+    href: 'https://github.com/BudDefi/bud-audits',
   },
 ]
 
