@@ -76,7 +76,7 @@ const config: MenuEntry[] = [
 
   },
   {
-    label: 'Audits (In Progress)',
+    label: 'Audits',
     icon: 'AuditIcon',
     href: 'https://github.com/BudDefi/bud-audits',
   },
