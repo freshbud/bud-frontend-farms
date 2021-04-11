@@ -21,22 +21,56 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farms',
+    label: 'BUD Farm',
     icon: 'FarmIcon',
-    href: 'https://buddefi.com/farms',
+    href: '',
+    items: [
+      {
+        label: 'Farms',
+        href: 'https://buddefi.com/farms',
+      },
+      {
+        label: 'Treats',
+        href: 'https://buddefi.com/treats',
+      },
+    ],
   },
   {
-    label: 'Treats',
+    label: 'Staking (Coming Soon)',
     icon: 'PoolIcon',
-    href: 'https://buddefi.com/treats',
+    href: '#',
   },
+  // {
+  //   label: 'Lottery',
+  //   icon: 'TicketIcon',
+  //   href: '#',
+  // },
+  // {
+  //   label: 'Dapps',
+  //   icon: 'NftIcon',
+  //   href: '',
+  //   items: [
+  //     {
+  //       label: 'Best Bud (TBA)',
+  //       href: '#',
+  //     },
+  //   ],
+  // },
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
-        label: 'PancakeSwap',
+        label: 'Buy BUD On PancakeSwap',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x6B4DA04f7662DB8abf772d973D93aF573e8aFaD5',
+      },
+      {
+        label: 'PancakeSwap Overview',
         href: 'https://pancakeswap.info/token/0x6B4DA04f7662DB8abf772d973D93aF573e8aFaD5',
+      },
+      {
+        label: 'Chart: DexGuru',
+        href: 'https://dex.guru/token/0x6B4DA04f7662DB8abf772d973D93aF573e8aFaD5',
       },
       {
         label: 'Chart: AstroTools',
@@ -46,10 +80,6 @@ const config: MenuEntry[] = [
         label: 'Chart: Poo',
         href: 'https://poocoin.app/tokens/0x6b4da04f7662db8abf772d973d93af573e8afad5',
       },
-      // {
-      //   label: 'CoinMarketCap',
-      //   href: 'https://coinmarketcap.com/currencies/cub-finance/',
-      // },
     ],
   },
   {

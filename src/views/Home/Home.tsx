@@ -8,6 +8,8 @@ import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
+import EarnAPYCard from './components/EarnAPYCard'
+
 
 const Hero = styled.div`
   background-image: url('/images/bud/wide.svg');
@@ -53,6 +55,24 @@ const Cards = styled(BaseLayout)`
   }
 `
 
+const CTACards = styled(BaseLayout)`
+  align-items: start;
+  margin-bottom: 32px;
+  & > div {
+    grid-column: span 6;
+  }
+  ${({ theme }) => theme.mediaQueries.sm} {
+    & > div {
+      grid-column: span 8;
+    }
+  }
+  ${({ theme }) => theme.mediaQueries.lg} {
+    & > div {
+      grid-column: span 6;
+    }
+  }
+`
+
 const Home: React.FC = () => {
   const TranslateString = useI18n()
 
@@ -71,6 +91,9 @@ const Home: React.FC = () => {
           <CakeStats />
           <TotalValueLockedCard />
         </Cards>
+        <CTACards>
+            <EarnAPYCard />
+          </CTACards>
       </div>
     </Page>
   )
